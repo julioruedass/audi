@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {HomeComponent } from './home/home.component' ;
 import {ModelsComponent } from './models/models.component' ;
 import {ServicesComponent } from './services/services.component' ;
-
+//Rutas de codigo
 const routes: Routes = [ {path:'home',component:HomeComponent}, {path:'models', component: ModelsComponent},
  {path:'services', component: ServicesComponent}, {path:'**',component: HomeComponent}  ];
 
